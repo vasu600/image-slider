@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles (1).css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <!-- Radio Buttons for Navigation -->
+            <input type="radio" name="radio-btn" id="radio1" checked>
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!-- Slide Images -->
+            <div class="slide first">
+                <img src="./Amarnath-temple-poster.jpg" alt="Image 1">
+                <div class="caption">
+                    <h2>Amarnath-temple</h2>
+                    <p>JAMMU AND KASHMIR</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./download.jpg" alt="Image 2">
+                <div class="caption">
+                    <h2>Bani sarthal</h2>
+                    <p>JAMMU AND KASHMIR</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./mubarak-mandi-jammu-city.jpg" alt="Image 3">
+                <div class="caption">
+                    <h2>mubarak-mandi-jammu-city</h2>
+                    <p>JAMMU AND KASHMIR</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./vashno devi.webp" alt="Image 4">
+                <div class="caption">
+                    <h2>vashno devi</h2>
+                    <p>JAMMU AND KASHMIR</p>
+                </div>
+            </div>
+
+            <!-- Navigation Manual -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Auto Navigation -->
+    <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+    </div>
+    <script src="script.js"></script>
+   
+</body>
+</html>
